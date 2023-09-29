@@ -70,9 +70,11 @@
 .mainBox__columnsContainer__leftColumn {
     flex-grow: 1;
     flex-shrink: 1;
-    background-color: gray;
+    background-color: rgb(225, 225, 225);
+    border: 1px solid rgb(169, 169, 169);
+    box-shadow: 0 0 5px rgb(227, 227, 227);
     border-radius: 15px;
-    margin-right: 2px; 
+    margin-right: 10px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,9 +83,11 @@
 .mainBox__columnsContainer__rightColumn {
     flex-grow: 1;
     flex-shrink: 1;
-    background-color: rgb(38, 38, 38);
+    background-color: rgb(225, 225, 225);
+    border: 1px solid rgb(169, 169, 169);
+    box-shadow: 0 0 5px rgb(227, 227, 227);
     border-radius: 15px;
-    margin-left: 2px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
